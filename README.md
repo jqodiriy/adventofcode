@@ -1,3 +1,4 @@
-# adventofcode
+# adventofcode 2023
 
-# solutions in kotlin
+day1 
+  1. solved in kotlin
