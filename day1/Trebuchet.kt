@@ -4,7 +4,7 @@ import java.io.File
 import java.io.InputStream
 
 fun read(): List<String> {
-    val inputStream: InputStream = File("cp/src/day1/input.txt").inputStream()
+    val inputStream: InputStream = File("path/to/input.txt").inputStream()
     return inputStream.bufferedReader().use { it.readText() }.split("\n")
 }
 
